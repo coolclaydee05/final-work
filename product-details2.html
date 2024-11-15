@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail - Tech Moto</title>
+    <link rel="icon" type="image/png" sizes="48x48" href="images/Untitled-1.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/Untitled-1.png" alt="Tech Moto Logo" style="height: 100px;"> Tech Moto
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Detail Section -->
+    <section class="container my-5">
+        <div class="row">
+            <!-- Product Image Carousel -->
+            <div class="col-md-6">
+                <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/1.jpg" class="d-block w-100" alt="Product Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/X001.jpg" class="d-block w-100" alt="Product Image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/gadgetsfinal.jpeg" class="d-block w-100" alt="Product Image 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product Details -->
+            <div class="col-md-6">
+                <h1 class="mb-3">Dashboard</h1>
+                <p class="text-muted">SKU: 223455 | Category: Electronics</p>
+                <h2 class="text-success">₱ 900 - 5,000</h2>
+
+                <p class="mt-4">A motorcycle dashboard, also known as an instrument cluster, is the central computer system of the motorcycle. It displays information about the motorcycle's performance and includes gauges, indicators, and warning lights.</p>
+                
+                <ul class="list-unstyled my-4">
+                    <li><strong>Features:</strong></li>
+                    <li> High-resolution display</li>
+                    <li> Longlasting usage</li>
+                    <li> Accurate readings</li>
+                    <li> Easy to understand</li>
+                </ul>
+
+                <a href="checkout.html" class="btn btn-primary btn-lg">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+     <!-- Footer Section -->
+     <footer class="bg-primary text-white text-center py-4">
+        <p>&copy; 2024 Tech Moto. All Rights Reserved.</p>
+        <div class="d-flex justify-content-center">
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/carllemuel.alcayde" target="_blank" class="mx-2">
+                <img src="images/facebook-logo.png" alt="Facebook" style="width: 40px;">
+            </a>
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/cool.clayde05/" target="_blank" class="mx-2">
+                <img src="images/instagram-logo.png" alt="Instagram" style="width: 40px;">
+            </a>
+            <!-- YouTube -->
+            <a href="https://www.youtube.com/channel/UCNQZypTnc77f7Hvpstx-R-A" target="_blank" class="mx-2">
+                <img src="images/youtube-logo.png" alt="YouTube" style="width: 40px;">
+            </a>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
